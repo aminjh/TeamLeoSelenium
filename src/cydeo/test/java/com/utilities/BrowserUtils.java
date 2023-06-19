@@ -1,13 +1,11 @@
-package com.cydeo.utilities;
+package com.utilities;
 
 /*
     This class will be storing only the utility methods that can be used across the project
      */
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.Test;
 
 import java.util.Set;
 

@@ -1,8 +1,6 @@
-package com.cydeo.tests.natalya;
+package com.tests.natalya;
 
-import com.cydeo.utilities.BrowserUtils;
-import com.cydeo.utilities.ConfigurationReader;
-import com.cydeo.utilities.Driver;
+import com.utilities.BrowserUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
