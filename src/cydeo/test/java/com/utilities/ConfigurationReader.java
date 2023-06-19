@@ -1,10 +1,9 @@
-package com.cydeo.utilities;
+package com.utilities;
 /*
 In this class we will be creating the re-usable logic to read from configuration.properties file
  */
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
