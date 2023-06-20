@@ -17,7 +17,7 @@ public class Driver {
 
     /*
     Making our 'driver' instance private, so that it is not reachable from outside of any class
-    We make it static, because we want it to run before anyting else,
+    We make it static, because we want it to run before anything else,
     also we will use it in static method
      */
     private static WebDriver driver;

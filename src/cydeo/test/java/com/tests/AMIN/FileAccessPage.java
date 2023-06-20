@@ -1,7 +1,9 @@
-package com.cydeo.tests.AMIN;
+package com.tests.AMIN;
 
+import com.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
@@ -24,6 +26,8 @@ public class FileAccessPage extends com.cydeo.tests.AMIN.TestBase {
         loginButton.click();
     }
 */
+
+    WebDriver driver;
     @Test
     public void accessFilesPage() {
 
