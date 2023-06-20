@@ -1,4 +1,4 @@
-package com.cydeo.tests.farangez;
+package com.tests.farangez;
 
 import com.cydeo.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
