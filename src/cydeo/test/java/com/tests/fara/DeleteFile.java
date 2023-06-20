@@ -1,8 +1,8 @@
-package com.cydeo.tests.fara;
+package com.tests.fara;
 
-import com.cydeo.utilities.ConfigurationReader;
-import com.cydeo.utilities.Driver;
-import com.cydeo.utilities.WebDriverFactory;
+
+import com.utilities.ConfigurationReader;
+import com.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
