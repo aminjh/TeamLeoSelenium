@@ -1,6 +1,7 @@
 package com.tests.farangez;
 
-import com.cydeo.utilities.WebDriverFactory;
+
+import com.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
