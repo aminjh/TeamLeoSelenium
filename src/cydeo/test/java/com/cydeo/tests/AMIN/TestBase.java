@@ -1,6 +1,7 @@
 package com.cydeo.tests.AMIN;
 
-import com.cydeo.utilities.WebDriverFactory;
+
+import com.utilities.WebDriverFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeMethod;
 
