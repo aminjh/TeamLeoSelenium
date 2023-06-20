@@ -5,7 +5,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class FileAccessPage extends TestBase {
+public class FileAccessPage extends com.cydeo.tests.AMIN.TestBase {
 /*
     @Test
     public void LoginWithValidDate() {
