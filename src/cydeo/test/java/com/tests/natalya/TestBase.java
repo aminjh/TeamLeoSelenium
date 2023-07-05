@@ -2,6 +2,7 @@ package com.tests.natalya;
 
 import com.utilities.WebDriverFactory;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import java.util.concurrent.TimeUnit;
@@ -17,12 +18,10 @@ public class TestBase {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
-    //@AfterMethod
-   // public void tearDownMethod() {
+    @AfterMethod
+    public void tearDownMethod() {
 
-    //    driver.quit();
-
-
-    //}
+        driver.quit();
+    }
 
 }
