@@ -1,13 +1,14 @@
 package com.tests.natalya;
 
 import com.utilities.BrowserUtils;
+import cydeo.test.java.com.tests.AMIN.TestBase1;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TalkModule extends TestBase {
+public class TalkModule extends TestBase1 {
 
     // US:B29G24-10: As a user, I should be able to access to the Talk page.
 
